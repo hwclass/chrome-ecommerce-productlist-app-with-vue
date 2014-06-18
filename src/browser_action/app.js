@@ -11,7 +11,7 @@ Vue.component('product-list', {
 								'</a>'
 })
 
-var productList = new Vue({
+var productListApp = new Vue({
 	
 	el: '#product_list',
 
@@ -24,10 +24,10 @@ var productList = new Vue({
 	methods : {
 
 		/**
-		 * loadProductsFromServer() fetches the product data
+		 * getProducts() fetches the product data
 		 *
 		 */
-		loadProductsFromServer : function () {
+		getProducts : function () {
 			var self = this;
 			$.ajax({
 				url: config.urls.favouriteProducts,
@@ -123,4 +123,4 @@ var productList = new Vue({
 
 });
 
-productList.loadProductsFromServer();
+productListApp.getProducts();
