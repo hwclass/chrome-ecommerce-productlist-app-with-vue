@@ -1,0 +1,21 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+<div id="mainPopup">
+	<div id="header" class="cf">
+		<img src="../../img/logo.png" width="164" height="26" style="margin: 5px 0 0 5px;"/>
+	</div>
+	<ul id="product_list" class="cf">
+	    <li v-repeat="products" v-component="product-list"></li>
+	</ul>
+	<div id="err" class="hidden"></div>
+	<div id="loader">
+		<img src="../../img/ajax-loader.gif"/>
+	</div>
+</div>
+<script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/underscore/underscore.min.js"></script>
+<script src="../../js/klass/klass.js"></script>
+<script src="../../js/vue/vue.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<!--<script src="app.browserAction.js"></script>-->

@@ -1,0 +1,30 @@
+{
+  "name": "Enmoda",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "enmoda.com",
+  "homepage_url": "http://www.enmoda.com",
+  "icons": {
+    "16": "icons/icon16.gif",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "enmoda.com",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "chrome_url_overrides": {
+    "bookmarks": "src/override/override.html"
+  },
+  "permissions": [
+    "bookmarks",
+	"<all_urls>"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

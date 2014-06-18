@@ -1,0 +1,87 @@
+body {overflow-y : auto;}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../font/roboto/eot/roboto_regular.eot');
+    src: local('Roboto Regular'), local('Roboto Regular'),
+    url('../font/roboto/woff/roboto_regular.woff') format('woff'),
+    url('../font/roboto/svg/roboto_regular.svg#RobotoRegular') format('svg'),
+    url('../font/roboto/otf/roboto_regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../font/roboto/eot/roboto_medium.eot');
+    src: local('Roboto Medium'), local('Roboto Medium'),
+    url('../font/roboto/woff/roboto_medium.woff') format('woff'),
+    url('../font/roboto/svg/roboto_medium.svg#RobotoMedium') format('svg'),
+    url('../font/roboto/otf/roboto_medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../font/roboto/eot/roboto_bold.eot');
+    src: local('Roboto Bold'), local('Roboto Bold'),
+    url('../font/roboto/woff/roboto_bold.woff') format('woff'),
+    url('../font/roboto/svg/roboto_bold.svg#RobotoBold') format('svg'),
+    url('../font/roboto/otf/roboto_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../font/roboto/eot/roboto_black.eot');
+    src: local('Roboto Black'), local('Roboto Black'),
+    url('../font/roboto/woff/roboto_black.woff') format('woff'),
+    url('../font/roboto/svg/roboto_black.svg#RobotoBlack') format('svg'),
+    url('../font/roboto/otf/roboto_black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../font/roboto/eot/roboto_light.eot');
+    src: local('Roboto Light'), local('Roboto Light'),
+    url('../font/roboto/woff/roboto_light.woff') format('woff'),
+    url('../font/roboto/svg/roboto_light.svg#RobotoLight') format('svg'),
+    url('../font/roboto/otf/roboto_light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../font/roboto/eot/roboto_thin.eot');
+    src: local('Roboto Thin'), local('Roboto Thin'),
+    url('../font/roboto/woff/roboto_thin.woff') format('woff'),
+    url('../font/roboto/svg/roboto_thin.svg#RobotoThin') format('svg'),
+    url('../font/roboto/otf/roboto_thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.cf{content:"";display:table}
+.cf:after{clear:both}
+#mainPopup{height:200px;width:400px;font-family:Helvetica, Ubuntu, Arial, sans-serif;padding:0}
+h1{font-size:2em}
+.hidden{display:none!important}
+ul#product_list{text-align:left;float:none;position:absolute;top:0;right:auto;bottom:auto;left:0;margin-top:48px;list-style:none;padding:0}
+li{margin-left:11px;width:125px;float:left;position:relative;z-index:1}
+li a.product-link{float:left;width:125px}
+li a img{width:60px;height:114px;margin-left:33px;float:left}
+.price{width:125px;float:left}
+.price .brand-name{width:125px;color:#323232;font-family:'Roboto Bold';font-size:14px;text-align:center;-webkit-margin-before:0;-webkit-margin-after:0}
+.price .brand-detail{width:125px;color:#323232;font-family:'Roboto Regular';font-size:12px;text-align:center;line-height:16px;-webkit-margin-before:0;-webkit-margin-after:0}
+.price .price-detail-old{font-family:'Roboto Regular';font-size:12px;height:14px;text-align:center;color:#323232;text-decoration:line-through;-webkit-margin-before:0;-webkit-margin-after:0}
+.price .price-detail{padding-top:1px;font-family:'Roboto Regular';font-size:20px;text-align:center;color:#E74B3B;-webkit-margin-before:0;-webkit-margin-after:0}
+.price .price-detail .text-price-small{font-size:14px}
+.product-detail-button{background-color:#E74B3B;margin-top:18px;cursor:pointer;text-align:center;position:absolute;left:50%;width:100px;margin-left:-50px;z-index:6;padding:3px 0 5px}
+.product-detail-button .text{font-family:'Roboto Bold';font-size:11px;letter-spacing:.1em;color:#FFF}
+.product-overlay{width:245px;height:392px;background-color:#000;position:absolute;top:0;left:0;z-index:5;-webkit-opacity:0.07;-moz-opacity:0.07;opacity:0.07;filter:alpha(opacity=0.07)}
+#header{width:100%;height:35px;background-color:#323232;color:#FFF}
+#loader{position:absolute;top:110px;left:200px;width:32px;height:32px}
+#err {position:absolute;top:110px;width:400px;margin:0 auto;text-align: center;}
