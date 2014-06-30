@@ -80,11 +80,21 @@ var productListApp = new Vue({
 		/**
 		 * isNull() checks if the argument is null or not
 		 *
+		 * @param <Object> obj
+		 *
+		 */
+		isNull : function (obj) {
+			return (null == obj ? true : false);
+		},
+
+		/**
+		 * isUndefined() checks if the argument is undefined or not
+		 *
 		 * @param <Object> o
 		 *
 		 */
-		isNull : function (o) {
-			return (null == o ? true : false);
+		isUndefined : function (obj) {
+			return (undefined == obj ? true ? false);
 		},
 
 		/**
