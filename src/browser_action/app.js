@@ -66,6 +66,17 @@ var productListApp = new Vue({
 		},
 
 		/**
+		 * isArrayEmpty() checks if the given array is empty or not.
+		 *
+		 * @param <Array> _array
+		 *
+		 * @return <Boolean>
+		*/
+		isArrayEmpty : function (_array) {
+			return (_array.length == 0);
+		},
+
+		/**
 		 * isNull() checks if the argument is null or not
 		 *
 		 * @param <Object> obj
