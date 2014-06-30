@@ -16,9 +16,7 @@ var productListApp = new Vue({
 	el: '#product_list',
 
 	data: {
-
 		products: []
-
 	},
 
 	methods : {
