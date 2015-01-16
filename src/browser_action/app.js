@@ -2,15 +2,11 @@
 
 /*Vue Main App File for Product List :: productListApp*/
 var productListApp = new Vue({
-	
 	el: '#product_list',
-
 	data: {
 		products: []
 	},
-
 	methods : {
-
 		/**
 		 * getProducts() fetches the product data
 		 *
@@ -55,7 +51,7 @@ var productListApp = new Vue({
 				dataType : 'json'
 			});
 		},
-
+    
 		/**
 		 * reduceCharOnShortDesc() returns a limited version of the text delivered as the argument
 		 *
