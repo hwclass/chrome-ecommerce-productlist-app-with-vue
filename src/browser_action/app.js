@@ -12,7 +12,7 @@ var productListApp = new Vue({
 		 * getProducts() fetches the product data
 		 *
 		 */
-		getProducts : function () {
+		init : function () {
 			var self = this;
 			$.ajax({
 				url: config.urls.favouriteProducts,

@@ -2,4 +2,4 @@
 
 /*Vue Main App File for Product List :: init.js*/
 
-productListApp.getProducts();
+productListApp.init();
