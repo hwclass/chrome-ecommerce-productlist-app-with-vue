@@ -1,3 +1,5 @@
+'use strict';
+
 /*Vue Components*/
 
 /*Product List Component*/

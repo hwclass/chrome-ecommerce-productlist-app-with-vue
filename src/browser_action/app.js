@@ -1,3 +1,5 @@
+'use strict';
+
 /*Vue Main App File for Product List :: productListApp*/
 var productListApp = new Vue({
 	

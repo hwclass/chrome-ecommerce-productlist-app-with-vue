@@ -1,3 +1,5 @@
+'use strict';
+
 var config = {
 	site : 'http://www.some.com',
 	domains : {
