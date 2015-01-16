@@ -1,6 +1,7 @@
 'use strict';
 
 /*Vue Main App File for Product List :: productListApp*/
+
 var productListApp = new Vue({
 	el: '#product_list',
 	data: {
@@ -51,7 +52,7 @@ var productListApp = new Vue({
 				dataType : 'json'
 			});
 		},
-    
+
 		/**
 		 * reduceCharOnShortDesc() returns a limited version of the text delivered as the argument
 		 *
@@ -128,4 +129,3 @@ var productListApp = new Vue({
 
 });
 
-productListApp.getProducts();
